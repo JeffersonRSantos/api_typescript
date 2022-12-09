@@ -7,8 +7,8 @@
 
 ### - Rotas para testes
 
-$ (GET) /
-$ (POST) /login -> (Exige provider ORM)
+<p>(GET) / -> (Rota raiz)</p>
+<p>(POST) /login -> (Exige provider ORM)</p>
 
 ### - Middlewares configurados
 
