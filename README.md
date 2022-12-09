@@ -2,8 +2,8 @@
 
 ### - Execute o projeto rodando:
 
-$ yarn install
-$ yarn dev
+<p>$ yarn install</p>
+<p>$ yarn dev</p>
 
 ### - Rotas para testes
 
