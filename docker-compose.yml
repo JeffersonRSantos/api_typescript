@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    command: yarn start
+    ports:
+      - 3333:3333
+    volumes:
+      - .:/usr/app
+  
+  mysqldb:
+    container_name: mysqldb-container
+    image: mysql:5.7.41
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - TZ=America/Sao_Paulo
+    ports:
+      - '3308:3306'

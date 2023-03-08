@@ -1,4 +1,4 @@
-### Essa aplicação não possui nenhum provider configurado, é uma aplicação independente usando a arquitetura SOLID + TDD, é possível realizar testes locais, e não exige banco de dados para exercer testes. (ótima estrutura para iniciar projetos)
+### PaymentPic 
 
 #### - Execute o projeto rodando:
 
@@ -18,3 +18,17 @@
 
 - Em cada *useCase* é possível realizar o teste unitário para testar qualquer regra de negócio.
 Use o comando *yarn test*
+
+
+Passos para melhorias:
+
+ETAPA 1 - 
+
+- Redis (pub/sub) para controle dos pagamento (worker)
+- Redis para envio de notificações (worker)
+- ElasticSearch para logs
+
+
+ETAPA 2 -
+
+- Kafka (mensageria)

@@ -1,14 +1,19 @@
 {
-    "name": "project_typescript",
+    "name": "payment_pic",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
     "author": {
-        "name": "Jefferson Santos"
+        "name": "Jefferson Santos",
+        "recruiterName": "",
+        "linkRepository": "",
+        "Linkedin": ""
     },
     "scripts": {
+        "build": "tsc -p .",
         "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
-        "test": "jest"
+        "test": "jest",
+        "start": "node dist/server.js"
     },
     "dependencies": {
         "@types/bcrypt": "^5.0.0",
