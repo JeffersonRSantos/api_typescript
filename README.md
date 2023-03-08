@@ -1,5 +1,3 @@
-### PaymentPic 
-
 #### - Execute o projeto rodando:
 
 <p>$ yarn install</p>
@@ -19,16 +17,3 @@
 - Em cada *useCase* é possível realizar o teste unitário para testar qualquer regra de negócio.
 Use o comando *yarn test*
 
-
-Passos para melhorias:
-
-ETAPA 1 - 
-
-- Redis (pub/sub) para controle dos pagamento (worker)
-- Redis para envio de notificações (worker)
-- ElasticSearch para logs
-
-
-ETAPA 2 -
-
-- Kafka (mensageria)
